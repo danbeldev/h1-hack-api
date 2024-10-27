@@ -1,0 +1,7 @@
+services:
+  h1-hack-api:
+    image: h1-hack-api:latest
+    build: .
+    restart: "no"
+    ports:
+      - "18380:18380"
